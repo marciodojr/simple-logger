@@ -1,0 +1,30 @@
+{
+    "name": "marciodojr/simple-logger",
+    "description": "Simple psr3 Logger. Write to server log.",
+    "type": "package",
+    "require": {
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Márcio Dias",
+            "email": "marciojr91@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Mdojr\\Logger\\": "src"
+        }
+    },
+    "scripts": {
+        "test":  [
+            "phpunit"
+        ]
+    }
+
+}
