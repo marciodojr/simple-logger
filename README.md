@@ -1,10 +1,12 @@
 # Simple PSR-3 Logger
 
 ## Description
-Just write messages to server log in the format:
+Just write messages to log using PHP `error_log` in the format:
+
 Log[*level*]: *message*
 
 Example:
+
 Log[error]: Resource not created
 
 

@@ -1,6 +1,6 @@
 {
     "name": "marciodojr/simple-logger",
-    "description": "Simple psr3 Logger. Write to server log.",
+    "description": "Simple psr3 Logger. Writes to log using PHP error_log.",
     "type": "package",
     "require": {
         "psr/log": "^1.0"
